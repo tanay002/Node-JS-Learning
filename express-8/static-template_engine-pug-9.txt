@@ -1,0 +1,15 @@
+//allows all user to read and download static file without login
+//For serving static files ->we paste in static folder and we access in our template
+app.use('/static',express.static('static'))
+
+
+A template engine (template processor) is a software designed to combine templates with a data model to produce result documents. In simple words, if we feed anything to the template engine, it provides the custom template output.
+
+The template engine that we will use is called pug. We will install it by writing npm install pug. To start the pug engine, we have to write the following code-
+
+// Set the template engine as pug
+app.set('view engine', 'pug')
+Now we will make a new with the name views and here we will keep our .pug files. To make a file, we have to write-
+
+// Set the views directory
+app.set('views', path.join(__dirname, 'views'))

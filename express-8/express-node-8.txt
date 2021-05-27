@@ -1,0 +1,13 @@
+express.js
+
+free-hand open source
+Express.js is a web application framework for Node.js
+It is designed for building web applications and APIs. Simply,
+ it creates custom backends automatically for us as per our 
+
+we create custom backends for different pages like about us, 
+contact us and services. But express creates the servers for
+ these pages automatically for us.requirements
+
+Moreover, it handles all the routings,scalability for us and also simplifies
+ all the process in the web development for us
